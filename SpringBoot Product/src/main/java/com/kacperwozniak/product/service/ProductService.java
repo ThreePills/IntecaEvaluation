@@ -19,6 +19,7 @@ public class ProductService implements IProductService {
     public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
+
     @Override
     public Optional<Product> getProductById(int creditID){
         return productRepository.findById(creditID);

@@ -23,6 +23,7 @@ public class ProductController {
     public List<Product> getProducts(){
         return productService.getAllProducts();
     }
+
     @GetMapping(value = "/getProduct/{creditId}")
     public Optional<Product> getProduct(@PathVariable("creditId") int creditId){
         return productService.getProductById(creditId);
