@@ -9,8 +9,7 @@ import javax.persistence.*;
 @Table
 public class Product {
     @Id
-    @PrimaryKeyJoinColumn
-    @Column(name = "CreditID")
+    @PrimaryKeyJoinColumn(name = "CreditID")
     private int creditId;
 
     @NotNull
