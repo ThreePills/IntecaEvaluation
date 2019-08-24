@@ -1,23 +1,9 @@
-package com.kacperwozniak.product.model;
+package com.kacperwozniak.credit.model;
 
-
-import com.sun.istack.internal.NotNull;
-
-import javax.persistence.*;
-
-@Entity
-@Table
 public class Product {
-    @Id
-    @PrimaryKeyJoinColumn(name = "CreditId")
-    private int creditId;
 
-    @NotNull
-    @Column(name = "Value")
-    private int value;
 
-    @NotNull
-    @Column(name = "productName")
+    private int creditId, value;
     private String productName;
 
     public Product() {

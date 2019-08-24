@@ -1,13 +1,13 @@
-package com.kacperwozniak.inteca;
+package com.kacperwozniak.credit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IntecaApplication {
+public class SpringBootCreditApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(IntecaApplication.class, args);
+        SpringApplication.run(SpringBootCreditApplication.class, args);
     }
 
 }

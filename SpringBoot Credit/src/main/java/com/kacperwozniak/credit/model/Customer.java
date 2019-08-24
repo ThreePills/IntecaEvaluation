@@ -1,24 +1,9 @@
-package com.kacperwozniak.customer.model;
+package com.kacperwozniak.credit.model;
 
-import com.sun.istack.internal.NotNull;
-
-import javax.persistence.*;
-
-@Entity
-@Table
 public class Customer {
-    @Id
-    @Column(name = "creditID")
+
     private int creditId;
-    @NotNull
-    @Column(name = "FirstName")
-    private String firstName;
-    @NotNull
-    @Column(name = "Surname")
-    private String surname;
-    @NotNull
-    @Column(name = "Pesel")
-    private String pesel;
+    private String firstName, surname, pesel;
 
     public Customer() {
     }
