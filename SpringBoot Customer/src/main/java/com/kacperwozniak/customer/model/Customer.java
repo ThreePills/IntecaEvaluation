@@ -1,11 +1,11 @@
 package com.kacperwozniak.customer.model;
 
-import com.sun.istack.internal.NotNull;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
-@Table
+@Table(name = "customer", schema = "customer_sch")
 public class Customer {
     @Id
     @Column(name = "creditID")

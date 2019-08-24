@@ -1,12 +1,10 @@
 package com.kacperwozniak.product.model;
 
-
-import com.sun.istack.internal.NotNull;
-
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
-@Table
+@Table(name = "product", schema = "product_sch")
 public class Product {
     @Id
     @PrimaryKeyJoinColumn(name = "CreditId")

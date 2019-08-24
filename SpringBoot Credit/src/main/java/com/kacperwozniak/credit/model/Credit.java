@@ -1,11 +1,10 @@
 package com.kacperwozniak.credit.model;
 
-import com.sun.istack.internal.NotNull;
-
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
-@Table
+@Table(name = "credit", schema = "credit_sch")
 public class Credit {
 
     @Id

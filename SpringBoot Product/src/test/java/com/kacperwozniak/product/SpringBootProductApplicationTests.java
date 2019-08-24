@@ -1,4 +1,4 @@
-package com.kacperwozniak.inteca;
+package com.kacperwozniak.product;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
