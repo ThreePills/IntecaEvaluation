@@ -23,4 +23,10 @@ Po uruchomieniu komponenty aplikacji działają na poniższych adresach:
     "value": 65321
     }
 - http://localhost:8090/restapi/product/ - Funkcjonalności związane z produktami
+    - http://localhost:8090/restapi/product/createProduct - Funkcjonalność dotycząca tworzenia nowego produktu
+    - http://localhost:8090/restapi/product/getProducts - Funkcjonalność zwracająca wszystkie produkty znajdujące się w bazie danych
+    - http://localhost:8090/restapi/product/getProduct/{creditId} - Funkcjonalność zwraca produkt o podanym identyfikatorze
 - http://localhost:8070/restapi/customer/ - Funkcjonalności związane z klientami 
+    - http://localhost:8070/restapi/customer/createCustomer - Funkcjonalność dotycząca tworzenia nowego klienta
+    - http://localhost:8070/restapi/customer/getCustomers - Funkcjonalność zwracająca wszystkich klientów znajdujących się w bazie danych
+    - http://localhost:8070/restapi/customer/getCustomer/{creditId} - Funkcjonalność zwraca klienta o podanym identyfikatorze
