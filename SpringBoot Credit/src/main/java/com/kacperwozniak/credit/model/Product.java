@@ -1,7 +1,9 @@
 package com.kacperwozniak.credit.model;
 
+/**
+ * Product model class
+ */
 public class Product {
-
 
     private int creditId, value;
     private String productName;

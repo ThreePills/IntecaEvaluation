@@ -3,6 +3,9 @@ package com.kacperwozniak.credit.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
+/**
+ * Credit entity class
+ */
 @Entity
 @Table(name = "credit", schema = "credit_sch")
 public class Credit {

@@ -78,7 +78,7 @@ public class Customer {
     }
     //TODO Add method to check if string is number
     private boolean containsOnlyNumbers(String stringToCheck){
-        return true;
+        return stringToCheck.matches("[0-9]+");
     }
 
     @Override

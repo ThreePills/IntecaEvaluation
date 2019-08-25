@@ -13,6 +13,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * Service implementation ICreditService
+ */
 @Service
 public class CreditService implements ICreditService{
 

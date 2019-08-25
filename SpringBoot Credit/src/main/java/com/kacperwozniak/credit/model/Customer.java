@@ -1,5 +1,8 @@
 package com.kacperwozniak.credit.model;
 
+/**
+ * Customer model class
+ */
 public class Customer {
 
     private int creditId;
@@ -61,9 +64,9 @@ public class Customer {
         if (pesel.length() != 11)
             throw new IllegalArgumentException("Pesel must be 11 numbers length");
     }
-    //TODO Add method to check if string is number
+
     private boolean containsOnlyNumbers(String stringToCheck){
-        return true;
+        return stringToCheck.matches("[0-9]+");
     }
 
     @Override

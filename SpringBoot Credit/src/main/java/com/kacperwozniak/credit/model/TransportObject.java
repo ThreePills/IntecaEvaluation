@@ -1,5 +1,8 @@
 package com.kacperwozniak.credit.model;
 
+/**
+ * Model class for transport informations about Credit, Customer and Product during createCustomers()
+ */
 public class TransportObject {
     private String firstName, surname,pesel, productName, creditName;
     private int value;

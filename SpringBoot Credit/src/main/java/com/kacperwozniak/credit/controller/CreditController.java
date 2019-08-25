@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * Credit RESTController Class
+ */
 @RestController
 @RequestMapping(value = "/restapi/credit")
 public class CreditController {
@@ -21,14 +24,13 @@ public class CreditController {
     Customer customer = new Customer();
     Product product = new Product();
 
-
     @GetMapping (value = "/getCredits")
     public List<Credit> getCredits(){
         return creditService.getCreditsList();
     }
+
     @PostMapping (value = "/createCredit")
     public void createCredit(@RequestBody TransportObject transportObject){
-
 
         product.setProductName(transportObject.getProductName());
         product.setValue(transportObject.getValue());
